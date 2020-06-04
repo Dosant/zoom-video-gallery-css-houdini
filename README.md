@@ -1,13 +1,14 @@
-# Zoom like video gallery with CSS Houdini 🎩
+# Video gallery just like in ZOOM with CSS Houdini 🎩
 
-I had to build a video gallery view similar to the one ZOOM has for a video-conferencing app.
+![something similar to this](https://raw.githubusercontent.com/Dosant/dosant.github.io/master/zoom-gallery.jpg)
+
+I had to build a video gallery similar to the one ZOOM has for a video-conferencing app.
 
 I've spent quite a bit of time trying to figure out how to build it with pure CSS and I... FAILED.
 
 In the end I solved it with a bit of JavaScript. I documeneted my solution [here](https://dev.to/antondosov/building-a-video-gallery-just-like-in-zoom-4mam).
 
-Later, for fun, I decided to try experimental CSS Layout API.
-Working result you can find in this repository.
+Later, for fun, I tried to build it witt experimental CSS Layout API. Working result is in this repository.
 
 To see it an action make sure to enable experimental web platform features in chrome or firefox.
 
