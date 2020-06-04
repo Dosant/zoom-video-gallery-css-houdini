@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    background-color: #1c1c1e;
+  }
+
+  #gallery {
+    height: 100%;
+    display: layout(video-gallery);
+  }
+  .video-container {
+    background-color: #3a3a3e;
+  }
+
+  video {
+    height: 100%;
+    width: 100%;
+  }
+</style>
+
+<div id="gallery">
+  <div class="video-container">
+    <video autoplay loop muted src="https://dosant.github.io/video.mp4"></video>
+  </div>
+  <div class="video-container">
+    <video autoplay loop muted src="https://dosant.github.io/video.mp4"></video>
+  </div>
+  <div class="video-container">
+    <video autoplay loop muted src="https://dosant.github.io/video.mp4"></video>
+  </div>
+  <div class="video-container">
+    <video autoplay loop muted src="https://dosant.github.io/video.mp4"></video>
+  </div>
+  <div class="video-container">
+    <video autoplay loop muted src="https://dosant.github.io/video.mp4"></video>
+  </div>
+</div>
+
+<script>
+  if ("layoutWorklet" in CSS) {
+    CSS.layoutWorklet.addModule("layout.js");
+  } else {
+    document.body.innerHTML =
+      'You need support for <a href="https://drafts.css-houdini.org/css-layout-api/">CSS Layout API</a> to view this demo :(';
+  }
+</script>
