@@ -4,9 +4,9 @@ I had to build a video gallery view similar to the one ZOOM has for a video-conf
 
 I've spent quite a bit of time trying to figure out how to build it with pure CSS and I... FAILED.
 
-In the end I solved it with JavaScript, you can find complete solution and explanation [here](https://dev.to/antondosov/building-a-video-gallery-just-like-in-zoom-4mam).
+In the end I solved it with a bit of JavaScript. I documeneted my solution [here](https://dev.to/antondosov/building-a-video-gallery-just-like-in-zoom-4mam).
 
-Then I decided to try experimental CSS Layout API.
+Later, for fun, I decided to try experimental CSS Layout API.
 Working result you can find in this repository.
 
 To see it an action make sure to enable experimental web platform features in chrome or firefox.
